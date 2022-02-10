@@ -1,0 +1,192 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF+mlHdo15i9dI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF+mlHdo15j8a0=",
+					"_parent": {
+						"$ref": "AAAAAAF+mlHdo15i9dI="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF+mlHy2V5pqFM=",
+							"_parent": {
+								"$ref": "AAAAAAF+mlHdo15j8a0="
+							},
+							"model": {
+								"$ref": "AAAAAAF+mlHy2V5nhUo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF+mlHy2V5qvRM=",
+									"_parent": {
+										"$ref": "AAAAAAF+mlHy2V5pqFM="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 202,
+									"width": 54.73583984375,
+									"height": 13,
+									"text": "注册监听",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 192,
+							"width": 74.73583984375,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF+mlHy2V5qvRM="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF+mp6N51565KA=",
+							"_parent": {
+								"$ref": "AAAAAAF+mlHdo15j8a0="
+							},
+							"model": {
+								"$ref": "AAAAAAF+mp6N5l54pSY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF+mp6N5157I98=",
+									"_parent": {
+										"$ref": "AAAAAAF+mp6N51565KA="
+									},
+									"font": "Arial;13;0",
+									"left": 546,
+									"top": 304,
+									"width": 156.05078125,
+									"height": 13,
+									"text": "直接返回定义的user_agent",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 536,
+							"top": 294,
+							"width": 176.05078125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF+mp6N5157I98="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAF+mp6N916CXU0=",
+							"_parent": {
+								"$ref": "AAAAAAF+mlHdo15j8a0="
+							},
+							"model": {
+								"$ref": "AAAAAAF+mp6N916A0X8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF+mp6N916Dviw=",
+									"_parent": {
+										"$ref": "AAAAAAF+mp6N916CXU0="
+									},
+									"model": {
+										"$ref": "AAAAAAF+mp6N916A0X8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 586,
+									"top": 252,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF+mp6N916CXU0="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF+mp6N51565KA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF+mlHy2V5pqFM="
+							},
+							"lineStyle": 2,
+							"points": "572:224;572:294",
+							"nameLabel": {
+								"$ref": "AAAAAAF+mp6N916Dviw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF+mlHy2V5nhUo=",
+					"_parent": {
+						"$ref": "AAAAAAF+mlHdo15i9dI="
+					},
+					"name": "注册监听",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAF+mp6N916A0X8=",
+							"_parent": {
+								"$ref": "AAAAAAF+mlHy2V5nhUo="
+							},
+							"source": {
+								"$ref": "AAAAAAF+mlHy2V5nhUo="
+							},
+							"target": {
+								"$ref": "AAAAAAF+mp6N5l54pSY="
+							}
+						}
+					],
+					"documentation": "chrome.webRequest.onBeforeSendHeaders.addListener"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF+mp6N5l54pSY=",
+					"_parent": {
+						"$ref": "AAAAAAF+mlHdo15i9dI="
+					},
+					"name": "直接返回定义的user_agent",
+					"documentation": "onBeforeSendHeaders\n\nconst onBeforeSendHeaders = d => {\n    const {tabId, url, requestHeaders, type} = d;\n    requestHeaders[0].name=\"sec-ch-ua\";\n    requestHeaders[0].value = \"\\\" Not;A Brand\\\";v=\\\"99\\\", \\\"Google Chrome\\\";v=\\\"97\\\", \\\"Chromium\\\";v=\\\"97\\\"\";\n\n    requestHeaders[1].name= \"sec-ch-ua-mobile\";\n    requestHeaders[1].value= \"?0\";\n\n    requestHeaders[2].name= \"User-Agent\";\n    requestHeaders[2].value= \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36/asdn123\";\n\n    requestHeaders[3].name= \"sec-ch-ua-platform\";\n    requestHeaders[3].value= \"\\\"Windows\\\"\";\n\n    requestHeaders[4].name= \"Accept\";\n    requestHeaders[4].value= \"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8\";\n    return {\n        requestHeaders\n    };\n};"
+				}
+			]
+		}
+	]
+}

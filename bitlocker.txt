@@ -1,0 +1,17 @@
+win7
+https://zhidao.baidu.com/question/231254093.html
+
+win8
+https://www.iplaysoft.com/windows8-versions-compare.html
+
+win10
+http://www.xitongcheng.com/jiaocheng/xtazjc_article_16694.html
+
+
+win10家庭版本
+https://answers.microsoft.com/zh-hans/windows/forum/all/windows/25488257-a695-43f9-8b65-f2ed96067b2e
+
+
+工作日报：
+1.系统重启后第一点击加密、解密后系统会弹出进度框。与光哥讨论无法从系统配置方面关闭窗口。现实现思路为创建线程在加密、解密时判断是否有弹窗进程，如果有关闭弹窗（100%）
+2.win10组策略优先导致设定的AES_128加密方式无效，win10加密方式默认为XTS_AES_128，此加密方式仅win10以上才能解析。因此在win10上加密无法在win10以下解密。与产品和光哥讨论还是得兼容，目前在探寻解决方案.(10%)
